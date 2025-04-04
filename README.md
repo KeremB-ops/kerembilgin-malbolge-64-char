@@ -5,7 +5,9 @@ Malbolge'de Karşılaştıgım İlginç Olay
 Merhaba,ben Ömer. Malbolge'yle uğraşırken tamamen şans eseri keşfettiğim bir davranışı paylaşmak istiyorum. Normalde "Hello World!" kelimesini Malbolge'de yazdırmak için 94 karakterli bir kod kullanılıyor, ama benim bulduğum bu yöntem sadece 64 karakterle aynı işi yapıyor! (Yani orjinalden %32 daha kısa!)
 
 Kodum şu şekilde:
+```malbolge
 (=<`#9]~6ZY32Vx/4Rs+0No-&Jk)"Fh}|Bcy?`=*z]Kw%oG4UUS0/@-ejc(:'8dc
+```
 
 Ancak kodda bazı tuhaflıklar var:
 Eğer kodun içindeki UUS0 yazan yeri (ki burda sıfır/0 ile yazılmış) değiştirip geleneksel olan "O" harfi ile yazarsanız (yani UUSO) program hata veriyor ve çalışmıyor.
